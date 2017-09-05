@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  div.info-container
+    h1 Contact Form
+    div.contact
+      form(action='/contact', name='contactus', id='contactus', method='post')    
+        
+        input(name='name', type='text', value='', id='name' placeholder='Name')
+        br
+        
+        input(name='email', type='text', value='', id='email' placeholder='Email')
+        br      
+        
+        textarea(name='message', cols='40', rows='10', id='message' placeholder='Message')
+        br
+        input(name='submit', type='submit', value='Send', id='submit')
+
+    a(herf="/") Home

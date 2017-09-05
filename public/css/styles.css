@@ -1,0 +1,21 @@
+html {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+	background: #e7eaf3;
+}
+
+.info-container {
+	text-align: center;
+}
+
+input {
+	font-size: 1.5em;
+	padding: .5em;
+	margin-bottom: 1em;
+}
+
+textarea {
+	font-size: 1.5em;
+}
